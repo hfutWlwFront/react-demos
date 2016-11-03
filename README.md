@@ -1,3 +1,7 @@
+## 说明:
+此库是在阮一峰老师开源的入门react基础上写的一些入门,实例,供入门学习使用
+
+
 This is a collection of simple demos of React.js.
 
 These demos are purposely written in a simple and clear style. You will find no difficulty in following them to learn the powerful library.
@@ -15,9 +19,6 @@ These demos are purposely written in a simple and clear style. You will find no 
 
 First copy the repo into your disk.
 
-```bash
-$ git clone git@github.com:ruanyf/react-demos.git
-```
 
 Then play with the source files under the repo's demo* directories.
 
