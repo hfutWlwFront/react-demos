@@ -1,3 +1,4 @@
+// component: MyHeader
 var MyHeader = React.createClass({
     propTypes: {
         name: React.PropTypes.string.isRequired,
@@ -19,7 +20,7 @@ var MyHeader = React.createClass({
         )
     }
 });
-
+// component : MyContent
 var MyContent = React.createClass({
     render: function() {
         return (
@@ -36,6 +37,7 @@ var name = 'sqliang';
 //var age = 23;
 var age = '23';
 
+// 渲染页面
 ReactDOM.render(
     <div>
         <MyHeader name={name} age={age}/>
